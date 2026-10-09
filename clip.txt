@@ -1,0 +1,6 @@
+Moments the clip must show (ticked only when seen in the preview screenshots):
+[x] 1. The airfield turns to hellfire: red sky, Diablo health+mana orbs, level/gold bar, caption, horned demons with colour-coded name plates and health bars (seen).
+[x] 2. The rifle kills demons: floating damage numbers, gold/potion/item labels and light beams on the ground, "You have slain..." log (seen).
+[x] 3. Loot is sucked to the hero, level up fires a HOLY NOVA ring of flame pillars that blasts nearby demons (seen, LEVEL text, flame pillars).
+[x] 4. THE BUTCHER (fat boss with cleaver and horns) arrives with a boss bar and voice line, is rocketed, "THE BUTCHER IS SLAIN", unique loot drops (seen).
+Weak: the 3D cleaver reads dark under the red night light.
