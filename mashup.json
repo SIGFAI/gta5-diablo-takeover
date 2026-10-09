@@ -1,0 +1,166 @@
+{
+  "id": "sigf/gta5-diablo-takeover",
+  "version": "1.0.0",
+  "name": "Diablo Takeover",
+  "tagline": "Bring Diablo into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gta5",
+      "role": "host",
+      "engine": "GTA V Legacy + FiveM (local FXServer, CfxLua 5.4 resource, NUI HTML overlay, streamed .ydr props)",
+      "apps": {
+        "steam": "271590"
+      }
+    },
+    {
+      "game": "diablo",
+      "role": "guest",
+      "label": "Diablo",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fivem"
+    }
+  ],
+  "install": [
+    {
+      "game": "gta5",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gta5-diablo-takeover.zip",
+          "dst": "{fivem}/resources/sigf_diablo_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "client.lua",
+              "sha256": "55df6da4169ae385304a8af66db1f0282043bf91d68c45b9bf63007aabebbaed"
+            },
+            {
+              "path": "demo.lua",
+              "sha256": "9e31ba398624cfbb6c4e13f6b1865d6883e1e51788e96f31edf3b9102b660227"
+            },
+            {
+              "path": "fxmanifest.lua",
+              "sha256": "3bec4e94ce80ff7c42e137d4b11c1078de0974604e741d8f03e12a0bd8668b0d"
+            },
+            {
+              "path": "img/orb_blue.png",
+              "sha256": "5737eee288d9c2680c289f1c101905eeca0ad5b09e0d395d1743449e58b72cd8"
+            },
+            {
+              "path": "img/orb_red.png",
+              "sha256": "f3c887e03ee5e001d31bfbaceaf4737313f3c220a1c9fd70ed79bab35ec79b5d"
+            },
+            {
+              "path": "lib/cl_bricks.lua",
+              "sha256": "300c912d9bcfa8bb02f8f636820021113b2848a124fc22c33164a18d22ea3336"
+            },
+            {
+              "path": "lib/cl_demo.lua",
+              "sha256": "00e02ecdcdf629411cfdbbe780e993eec6cd72b663b9de7052c34c175fc94d4d"
+            },
+            {
+              "path": "lib/cl_ready.lua",
+              "sha256": "ef9bd4698240643ffefc8374dc394ca25c988d2851c6ea613f43be31c850b3cb"
+            },
+            {
+              "path": "lib/nui/hud.css",
+              "sha256": "8dddfe6c6a3df9be201f6ff899bef6543900ce732f08fd84851fc7a99600199a"
+            },
+            {
+              "path": "lib/nui/hud.html",
+              "sha256": "254265d8e2cd5b5fb1a26a7f3ee1becc7c5ea71223c8fe75d0976c257fc141eb"
+            },
+            {
+              "path": "lib/sh_bricks.lua",
+              "sha256": "c84f8853c8a45a51f589513c31f1d567d40b931a54e744419077a5ea72a43023"
+            },
+            {
+              "path": "lib/sv_bricks.lua",
+              "sha256": "5fc3c94d19b751f0dc08dfb6c8de49bfd2005ebe91f557fcd1dce0f5fb3eab34"
+            },
+            {
+              "path": "sfx/butcher.ogg",
+              "sha256": "76c6942e92b8ab7d96a3b8df6446422ea35cd9ad116e3baa82e42d9774ca2002"
+            },
+            {
+              "path": "sfx/gold.ogg",
+              "sha256": "f2e9d32c7a31a21dce4f3c33759496004d20a204d1e41356b40b2600654314c1"
+            },
+            {
+              "path": "sfx/levelup.ogg",
+              "sha256": "b141baee2b0a1b2719ad4c41ee3188c668a9a18a7b007373f61d808222f0e1c0"
+            },
+            {
+              "path": "sfx/portal.ogg",
+              "sha256": "b01ef8735a4389fd14383b5ff476cd3a330eb701cfd5551b55b80def377a26a0"
+            },
+            {
+              "path": "stream/sigf_chest.ydr",
+              "sha256": "fef89bd595c654fee0a4bf7e9b605c00bbb1e8ec944f8acc5d7d610390af527c"
+            },
+            {
+              "path": "stream/sigf_chest.ytyp",
+              "sha256": "ca45b3a7759bbcb1f745de32f58fc45fb6b2a7c4a545194403bd248061ccd384"
+            },
+            {
+              "path": "stream/sigf_cleaver.ydr",
+              "sha256": "86c33ddfae3e59c86587bd7f72a2dcd20d4b578b498e9f58ce0d8b6a1fd23ee6"
+            },
+            {
+              "path": "stream/sigf_cleaver.ytyp",
+              "sha256": "834150ea5b755fdcd8d978942e39a669d5512a8470467461a64359b1529b5bb4"
+            },
+            {
+              "path": "stream/sigf_horns.ydr",
+              "sha256": "64150703d57b112f961b0413d0cf28ef291292c943f8ce85a2d4a324df718a18"
+            },
+            {
+              "path": "stream/sigf_horns.ytyp",
+              "sha256": "b4fa5f707c039296bbc550bcfb1fe0187b8ef6bae57709659ff6199831369be0"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gta5-diablo-takeover/releases/download/v1.0.0/gta5-diablo-takeover.zip",
+          "sha256": "9478c507d060fd1c8edd3252b44c06f71255ba1257b0527adaa015e90f9008e7",
+          "size": 1560703
+        }
+      ],
+      "runtime": "fivem"
+    }
+  ],
+  "launch": [
+    {
+      "game": "gta5",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gta5-diablo-takeover.zip",
+      "url": "https://github.com/SIGFAI/gta5-diablo-takeover/releases/download/v1.0.0/gta5-diablo-takeover.zip",
+      "sha256": "9478c507d060fd1c8edd3252b44c06f71255ba1257b0527adaa015e90f9008e7",
+      "size": 1560703
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gta5-diablo-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-8f113b7a.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gta5",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T01:00:30.860Z"
+}
